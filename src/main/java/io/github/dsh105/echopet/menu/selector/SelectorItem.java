@@ -8,7 +8,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 public enum SelectorItem {
 
-    SELECTOR(Material.BONE, 1, (short) 0, false, ChatColor.GREEN + "Pet Selector"),
+    SELECTOR(Material.BONE, 1, (short) 0, false, ChatColor.GOLD + "Pet Selector" + ChatColor.GRAY + " (Right-Click)",
     TOGGLE(Material.BONE, 1, (short) 0, false, ChatColor.YELLOW + "Toggle Pet"),
     CALL(Material.ENDER_PEARL, 1, (short) 0, false, ChatColor.YELLOW + "Call Pet"),
     RIDE(Material.CARROT_STICK, 1, (short) 0, false, ChatColor.YELLOW + "Ride Pet"),
